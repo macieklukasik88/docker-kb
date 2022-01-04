@@ -1,6 +1,6 @@
 # Inbox
-
 ## How to use it
+
 - Here you can write disorganised notes to be categorised later
 - Bullet points are useful, but it could be free form text as well
 - Sometimes it's better to just get things off your mind quickly, rather than stop to think where it belongs
@@ -21,13 +21,6 @@
 
 ### Dockercon 2021
 
-### How to install docker on Ubuntu (including WSL)
-
-[Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-[https://docs.docker.com/engine/install/linux-postinstall/]
-
-https://www.youtube.com/watch?v=8fi7uSYlOdc&t=89s
-
 #### namespaces
 
 namespaces - limiting whatp rocess can see
@@ -35,6 +28,17 @@ namespaces - limiting whatp rocess can see
 namespaces created with syscalls
 
 restricting the view the process has on things are going on the host machine
+
+How ot contenarize my process?
+
+Unix Tiemsharing System UTS
+- namespace is the hostname
+- hostname inherrited from host machine
+- can be changed with "hostname" command
+
+/proc/self/exe child
+
+chrott to change what proces sees as his process directory
 
 
 

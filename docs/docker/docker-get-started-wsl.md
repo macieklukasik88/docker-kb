@@ -17,7 +17,17 @@ tags: docker wsl2
 ## How to configure Docker to start on boot?
 
 1. Follow [this](https://docs.docker.com/engine/install/linux-postinstall/#configure-docker-to-start-on-boot) guide
+   1. for me it does not worked out
 
+2. Follow [this](https://docs.microsoft.com/en-us/windows/wsl/wsl-config) guide
+   1. wsl.conf file update needed:
+
+ 
+``` bash
+# Set a command to run when a new WSL instance launches. This example starts the Docker container service.
+[boot]
+command = service docker start
+```
 ## How to enable remote access to docker engine (API)?
 
 1. Follow [this](https://docs.docker.com/engine/install/linux-postinstall/#configure-where-the-docker-daemon-listens-for-connections)
